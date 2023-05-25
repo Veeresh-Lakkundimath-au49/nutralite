@@ -1,0 +1,159 @@
+.loginModal {
+   //  display: flex;
+   //  flex-direction: column;
+   //  align-items: center;
+   //  justify-content: center;
+   //  position: absolute;
+   //  top:30%;
+   //  left:35%;
+   //  background-color: white;
+   //  border-radius: 35px;
+   //  height: 350px;
+   //  width: 550px;
+   //  text-align: center;
+   //  border-width: 2px;
+   //  border: 3px solid orange;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: fixed;
+   /* top: 46%; */
+   /* left: 28%; */
+   background-color: white;
+   border-radius: 35px;
+   height: 400px;
+   width: 45%;
+   text-align: center;
+   border-width: 2px;
+   border: 3px solid orange;
+   transform: translate(-78%, 70%);
+   z-index: 1;
+  
+   
+   
+   }
+   .googleLoginBtn{
+      display:flex;
+      align-items: center;
+      justify-content:space-evenly;
+      font-family: 'HankRndThin', sans-serif;
+   }
+
+   .orLine{
+      width:1px;
+      height:1px;
+      background-color:black;
+   }
+
+   .orLineContainer{
+      display:flex;
+      // width:40%;
+      // height:1px;
+      // background-color: black;
+   }
+
+
+   .crossBtn{
+      margin-right: 40px;
+      margin-top:10px;
+      margin-left: 120%;
+      color:rgb(247 132 15);
+   }
+
+   .input{
+    width:300px;
+   }
+
+   .socialBtn{
+      color: red;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   // .modalItem{
+   //    height:2%;
+   //    width:4%;
+   //    margin-bottom: 1%;
+   // }
+
+   .modalHead{
+      // height: 45px;
+      // width: 100%;
+
+      height: 0px;
+    width: 100%;
+    margin-bottom: 20%;
+    color:black;
+    font-family: 'HankRndThin', sans-serif;
+   }
+
+   .input{
+      //height: 40px;
+      height: 50px;
+      width: 420px;
+      margin-bottom: 15px;
+      border-radius:10px;
+      background-color: white;
+      border: 0px solid black;
+      color:black;
+   box-shadow: 1px 1px 4px 4px  rgba(0, 0, 0, 0.2);
+   }
+
+   .input::placeholder{
+      text-align: center;
+   }
+
+   .nxtBtn{
+      // height: 40px;
+      height: 50px;
+    width: 420px;
+    border-radius:10px;
+    background-color:  rgb(15, 92, 170);
+    color:white;
+    border: 0 transparent;
+    margin-bottom: 40px;
+    font-size: 23px;
+   }
+
+   .socialItem{
+      color:red($color: #000000);
+      height: 45px;
+   //  margin-right: 30px;
+   //  margin-left: 20px;
+   margin-right: 10px;
+   margin-left: 7px;
+    width: 200px;
+   margin-bottom: 50px;
+   border-radius:10px;
+   color: rgb(0, 0, 0);
+   background-color: white;
+   border: 0.5px solid #bfc0c0;;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   }
+// .loginModal {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: white;
+//     border-color: black;
+//     border-radius: 10px;
+//     border-width:2px;
+//     height:300px;
+//     width:500px;
+//    }
+
+   .passModal {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100px;
+    /* height:60px; */
+    /* border-width: 2px; */
+
+    } 
